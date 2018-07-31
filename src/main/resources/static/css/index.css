@@ -1,0 +1,122 @@
+
+/* style du menu de navigation*/
+.dropdown-menu a:hover{
+	background-color : #ddd;
+}
+
+.dropdown-toggle{
+	cursor : pointer
+;
+}
+
+/*style du premier écran */
+.container-top{
+	margin-top :10%;
+}
+
+h1{
+	font-size: 2.5em;
+}
+
+.title{
+	color : #A12B37;
+	font-size: 3em;
+}
+
+.btn-adresse{
+	color : white;
+	background-color : #A12B37;
+	border-radius : 10px;
+	margin-top : 20px;
+	transition: all 0.5s;
+}
+.btn-adresse span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.btn-adresse span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.btn-adresse:hover span {
+	padding-right: 25px;
+}
+
+.btn-adresse:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+/*style du deuxième écran */
+.container-middle{
+	margin-top : 3%;
+}
+
+.container-middle p{
+	text-align: justify;
+}
+
+.card-container{
+	background-color : #f6f6f6;
+	border-top : 1px solid #d2d2d2;
+	margin-top : 20px;
+}
+
+h4{
+	border-bottom: 1px solid #d2d2d2;
+	color : #545454;
+	margin-bottom : 20px;
+}
+.card{
+	box-shadow: rgba(121,121,121,.35) 1px 20px 30px;
+	border-radius : 5px;
+}
+
+.card img{
+	border-radius : 5px;
+}
+
+.card:hover{
+	box-shadow: none;
+}
+.btn-card{
+	border-radius : 0px 0px 5px 5px;
+	background-color : #A12B37;
+	color : white;
+}
+
+a:hover{
+	color: white;
+}
+
+/* responsive style*/
+@media all and (max-width: 800px){
+	.logo-accueil{
+		display : none;
+	}
+
+	.title{
+		font-size : 2.5em;
+		margin : auto;
+	}
+
+	h1{
+		font-size : 1.5em;
+		margin : auto;
+	}
+}
+
+@media all and (max-width: 700px){
+	.title{
+		margin-top : 6%;
+	}
+}
+
