@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="FR-fr" xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="description" content="">
+    	<meta name="author" content="Maxime FILLION">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    	 <!-- Bootstrap core CSS -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/index.css">
+
+	   	<title>Home</title>
+    	<link rel="shortcut icon" type="image/x-icon" href="img/logo_position.png"/>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      		<div class="container">
+        		<a class="navbar-brand offset-md-1" href="index.html">L'Adresse HEI</a>
+		        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+		          	<span class="navbar-toggler-icon"></span>
+		        </button>
+        		<div class="collapse navbar-collapse" id="navbarResponsive">
+          			<ul class="navbar-nav offset-md-6 menu">
+            			 <li class="nav-item">
+                            <a class="nav-link" href="adresse.html">Nos Adresses</a>
+                        </li>
+			            <li class="nav-item">
+			             	<a class="nav-link" href="#">L'Equipe</a>
+			            </li>
+			            <li class="nav-item">
+			             	<a class="nav-link" href="#">Contacter</a>
+			            </li>
+			            <li class="nav-item">
+			             	<a class="nav-link" href="connexion.html">Admin</a>
+			            </li>
+          			</ul>
+        		</div>
+      		</div>
+    	</nav>
+    	<div class = "container-top animate">
+    		<div class = "col-md-4 offset-md-4 connexion-container">
+    			<h5>Connecter vous pour continuer</h5>
+    			<form class = "connexion-form">
+    				<div class="form-group">
+					    <input id="email" type="text" class="form-control" name="email" placeholder="Identifiant">
+					</div>
+	    			<div class = "form-group">
+	    				<input type="password" name=password class = "form-control" placeholder = "Mot de passe" required>
+	    			</div>
+    				<button type = "Submit" class = "btn btn-adresse btn-login col-md-12">
+    					<span>Se connecter</span>
+    				</button>
+    			</form>
+    		</div>
+    	</div>
+    </body>
+</html>
